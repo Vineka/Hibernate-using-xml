@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+
+<hibernate-mapping>
+	<class name="com.cts.bean.Student_Detail" table="student_detail">
+		<id name="id"></id>
+		<property name="student_name"></property> <!--  -->
+		<property name="dept"></property>
+		<property name="year"></property>
+	</class>
+
+</hibernate-mapping>  
